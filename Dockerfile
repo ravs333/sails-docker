@@ -38,7 +38,8 @@ COPY package.json /home/node/app/
 RUN npm install node-gyp bcrypt@^2.0.0 nodemon -g
 RUN cd /home/node/app/
 RUN npm install
+RUN nodemon node app.js
 #RUN npm audit fix --force
 
 EXPOSE 1337
-CMD ["bash","nodemon","sails","lift"]
+CMD ["bash"]
