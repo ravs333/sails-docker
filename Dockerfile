@@ -41,4 +41,4 @@ WORKDIR /home/node/${APP_NAME}
 #RUN npm audit fix --force
 
 EXPOSE 1337
-CMD ["nodemon","node","app.js"]
+CMD ["nodemon","app.js"]
