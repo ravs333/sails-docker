@@ -5,7 +5,9 @@ COPY . /usr/src/app
 
 # --no-cache: download package index on-the-fly, no need to cleanup afterwards
 # --virtual: bundle packages, remove whole bundle at once, when done
+RUN npm i npm@latest -g
 RUN apk --no-cache --virtual build-dependencies add \
+    git \
     python \
     make \
     g++ \

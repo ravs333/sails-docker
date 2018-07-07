@@ -99,7 +99,7 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git@bitbucket.org:jira_consultants/jira_server_import.git"
+    "url": "https://github.com/ravs333/sails-docker.git"
   },
   "author": "Ravindra Singh",
   "license": "MIT",
